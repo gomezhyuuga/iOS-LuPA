@@ -14,6 +14,7 @@
 		189014761B9415D100AC88AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189014751B9415D100AC88AA /* Images.xcassets */; };
 		189014791B9415D100AC88AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189014771B9415D100AC88AA /* LaunchScreen.xib */; };
 		189014851B9415D100AC88AA /* LuPaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189014841B9415D100AC88AA /* LuPaGameTests.swift */; };
+		1890148F1B94169A00AC88AA /* LupaGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890148E1B94169A00AC88AA /* LupaGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1890147E1B9415D100AC88AA /* LuPaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuPaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189014831B9415D100AC88AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189014841B9415D100AC88AA /* LuPaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuPaGameTests.swift; sourceTree = "<group>"; };
+		1890148E1B94169A00AC88AA /* LupaGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LupaGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1890146E1B9415D100AC88AA /* FirstViewController.swift */,
 				189014701B9415D100AC88AA /* SecondViewController.swift */,
 				189014721B9415D100AC88AA /* Main.storyboard */,
+				1890148E1B94169A00AC88AA /* LupaGameModel.swift */,
 				189014751B9415D100AC88AA /* Images.xcassets */,
 				189014771B9415D100AC88AA /* LaunchScreen.xib */,
 				1890146A1B9415D100AC88AA /* Supporting Files */,
@@ -218,6 +221,7 @@
 				189014711B9415D100AC88AA /* SecondViewController.swift in Sources */,
 				1890146D1B9415D100AC88AA /* AppDelegate.swift in Sources */,
 				1890146F1B9415D100AC88AA /* FirstViewController.swift in Sources */,
+				1890148F1B94169A00AC88AA /* LupaGameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
