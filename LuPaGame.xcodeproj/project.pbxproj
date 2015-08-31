@@ -15,6 +15,7 @@
 		189014791B9415D100AC88AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189014771B9415D100AC88AA /* LaunchScreen.xib */; };
 		189014851B9415D100AC88AA /* LuPaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189014841B9415D100AC88AA /* LuPaGameTests.swift */; };
 		1890148F1B94169A00AC88AA /* LupaGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890148E1B94169A00AC88AA /* LupaGameModel.swift */; };
+		5677FAD51B94FCAE00D2854E /* fer_profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5677FAD41B94FCAE00D2854E /* fer_profile.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		189014831B9415D100AC88AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189014841B9415D100AC88AA /* LuPaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuPaGameTests.swift; sourceTree = "<group>"; };
 		1890148E1B94169A00AC88AA /* LupaGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LupaGameModel.swift; sourceTree = "<group>"; };
+		5677FAD41B94FCAE00D2854E /* fer_profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fer_profile.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		189014691B9415D100AC88AA /* LuPaGame */ = {
 			isa = PBXGroup;
 			children = (
+				5677FAD31B94FC9000D2854E /* assets */,
 				1890146C1B9415D100AC88AA /* AppDelegate.swift */,
 				1890146E1B9415D100AC88AA /* FirstViewController.swift */,
 				189014701B9415D100AC88AA /* SecondViewController.swift */,
@@ -116,6 +119,14 @@
 				189014831B9415D100AC88AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5677FAD31B94FC9000D2854E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5677FAD41B94FCAE00D2854E /* fer_profile.jpg */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				189014741B9415D100AC88AA /* Main.storyboard in Resources */,
 				189014791B9415D100AC88AA /* LaunchScreen.xib in Resources */,
 				189014761B9415D100AC88AA /* Images.xcassets in Resources */,
+				5677FAD51B94FCAE00D2854E /* fer_profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,7 @@
 				1890148A1B9415D100AC88AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1890148B1B9415D100AC88AA /* Build configuration list for PBXNativeTarget "LuPaGameTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +440,7 @@
 				1890148D1B9415D100AC88AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
